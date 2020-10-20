@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Sentiment Analyser</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+    </head>
+    <body style="background-color:#f1f1e8;">
+	<div style="background-color:#81b214; height:100px;">
+		<center style="padding:10px">
+        		<h1 style="color:#fff">Text Sentiment Analyser</h1>
+		</center>
+	</div>
+<br>
+<br>
+	<center>
+        <form method="POST">
+            <textarea type="text" placeholder="Enter Your Text.." rows="5" cols="100" name = "text" style="border-radius:10px; width:500px; height:200px;"></textarea>
+<br>
+<br>
+	<button type="submit" style="width:150px; height:40px; border-radius:20px; background-color:#81b214; font-weight:bold; color:#fff">PREDICT</button>
+	</form>
+	</center>
+    </body>
+</html>
